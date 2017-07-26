@@ -422,3 +422,14 @@ a.more {
 .medium-gray-background {
   @at-root a#{&}, &, &.button, &.button:hover, &.tag { background: $medium-gray; }
 }
+
+// Emoji font
+@font-face {
+  font-family: 'Noto-Emoji';
+  src:  url('../fonts/Noto-Emoji.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.emoji {
+  font-family: 'Noto-Emoji';
+}
