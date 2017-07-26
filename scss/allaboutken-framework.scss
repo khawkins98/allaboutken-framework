@@ -124,6 +124,13 @@ section>ol, section>ul {
     -webkit-padding-end: 5%;
 }
 
+.no-bullet ul,
+ul.no-bullet {
+    list-style-type: none;
+    text-indent: -1rem;
+}
+
+
 figure {
     padding: 0;
     border: 0;
