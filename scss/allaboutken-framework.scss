@@ -167,6 +167,18 @@ figure.fullwidth figcaption {
 
 .main-content-area a:link {
     text-decoration: none;
+    background: -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3);
+    background: linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3);
+    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    text-shadow: 0.03em 0 #7759c3, -0.03em 0 #7759c3, 0 0.03em #7759c3, 0 -0.03em #7759c3, 0.06em 0 #7759c3, -0.06em 0 #7759c3, 0.09em 0 #7759c3, -0.09em 0 #7759c3, 0.12em 0 #7759c3, -0.12em 0 #7759c3, 0.15em 0 #7759c3, -0.15em 0 #7759c3;
+    background-position: 0% 93%, 100% 93%, 0% 93%;
+}
+
+.main-content-area .callout a:link {
+    text-decoration: none;
     background: -webkit-linear-gradient(#ffffff, #ffffff), -webkit-linear-gradient(#ffffff, #ffffff), -webkit-linear-gradient(#333, #333);
     background: linear-gradient(#ffffff, #ffffff), linear-gradient(#ffffff, #ffffff), linear-gradient(#333, #333);
     -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
@@ -183,15 +195,15 @@ figure.fullwidth figcaption {
     }
 }
 
-.main-content-area a:link::selection {
-    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-    background: #b4d5fe;
-}
-
-.main-content-area a:link::-moz-selection {
-    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-    background: #b4d5fe;
-}
+// .main-content-area a:link::selection {
+//     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+//     background: #b4d5fe;
+// }
+//
+// .main-content-area a:link::-moz-selection {
+//     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+//     background: #b4d5fe;
+// }
 
 /* Sidenotes, margin notes, figures, captions */
 .sidenote, .marginnote {
