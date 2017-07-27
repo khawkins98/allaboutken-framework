@@ -167,8 +167,8 @@ figure.fullwidth figcaption {
 
 .main-content-area a:link {
     text-decoration: none;
-    background: -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3);
-    background: linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3);
+    background: -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#333, #333);
+    background: linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3), linear-gradient(#333, #333);
     -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
@@ -190,9 +190,9 @@ figure.fullwidth figcaption {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-    .main-content-area a:link {
-        background-position-y: 87%, 87%, 87%;
-    }
+  .main-content-area a:link {
+    background-position-y: 87%, 87%, 87%;
+  }
 }
 
 // .main-content-area a:link::selection {
@@ -258,7 +258,7 @@ div.fullwidth, table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
+    // font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
 }
 
 span.newthought {
@@ -350,7 +350,7 @@ a.more {
   white-space: nowrap;
   &:after {
     content: " >";
-    font-family: "EBI-Functional";
+    // font-family: "EBI-Functional";
     font-size: .85em;
   }
 }
