@@ -33,5 +33,22 @@ console.log(''+
 '\n                      ',
 'color:#7759c3', 'color:#2970ad', 'color: #7759c3', 'color:#2970ad', 'color: #7759c3');
 
-var questions = new Object();
-questions['name'] = 'Ken Hawkins';
+//var questions = new Object();
+//questions['name'] = 'Ken Hawkins';
+
+// to do: save values to local storage
+
+console.log('You can do a few things:');
+console.log('Type: `hi` and tell me your name, I\'ll rememeber.')
+
+var hi = function(message) {
+  console.log('Hi ' + message);  
+
+  return blank();
+};
+
+hi.toString = function() {
+  hi(prompt("What's your name?"));
+
+  return " ";
+};
