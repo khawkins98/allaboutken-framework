@@ -167,14 +167,21 @@ figure.fullwidth figcaption {
 
 .main-content-area a:link {
     text-decoration: none;
-    background: -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#333, #333);
-    background: linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3), linear-gradient(#333, #333);
+    background: -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#7759c3, #7759c3), -webkit-linear-gradient(#FFF, #FFF);
+    background: linear-gradient(#7759c3, #7759c3), linear-gradient(#7759c3, #7759c3), linear-gradient(#FFF, #FFF);
     -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.03em 0 #7759c3, -0.03em 0 #7759c3, 0 0.03em #7759c3, 0 -0.03em #7759c3, 0.06em 0 #7759c3, -0.06em 0 #7759c3, 0.09em 0 #7759c3, -0.09em 0 #7759c3, 0.12em 0 #7759c3, -0.12em 0 #7759c3, 0.15em 0 #7759c3, -0.15em 0 #7759c3;
+    // text-shadow: 0.03em 0 #7759c3, -0.03em 0 #7759c3, 0 0.03em #7759c3, 0 -0.03em #7759c3, 0.06em 0 #7759c3, -0.06em 0 #7759c3, 0.09em 0 #7759c3, -0.09em 0 #7759c3, 0.12em 0 #7759c3, -0.12em 0 #7759c3, 0.15em 0 #7759c3, -0.15em 0 #7759c3;
     background-position: 0% 93%, 100% 93%, 0% 93%;
+}
+.main-content-area a:hover {
+    text-decoration: none;
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.4));
+    background-size: 1px 10px;
+    background-repeat: repeat-x;
+    background-position: 0% 93%;
 }
 
 .main-content-area .callout a:link {
@@ -451,4 +458,10 @@ a.more {
 }
 .emoji {
   font-family: 'Noto-Emoji';
+}
+
+// Text selection
+::selection {
+  background-color: #6e1fff;
+  color: #fff;
 }

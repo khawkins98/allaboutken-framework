@@ -70,7 +70,7 @@ $global-width: rem-calc(1250);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: rgb(119,89,195),
-  secondary: #5e5e5e,
+  secondary: #6e1fff,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -80,7 +80,7 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: rgb(119,89,195);
+$body-background: linear-gradient(to bottom, rgb(119,89,195) 0%, #2970ad 99%);
 $body-font-color: $white;
 $body-font-family: 'Fira Sans', Arial, sans-serif;
 $body-antialiased: true;
@@ -451,7 +451,8 @@ $form-button-radius: $global-radius;
 // 21. Label
 // ---------
 
-$label-background: $primary-color;
+// $label-background: $primary-color;
+$label-background: none;
 $label-color: $white;
 $label-color-alt: $black;
 $label-palette: $foundation-palette;
