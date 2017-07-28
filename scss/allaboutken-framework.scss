@@ -470,3 +470,9 @@ a.more {
 body.gradient {
   background: linear-gradient(to bottom, rgb(119,89,195) 0%, #2970ad 99%);
 }
+
+// code blocks
+pre > code {
+  display: block;
+  font-size: .8rem;
+}
