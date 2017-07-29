@@ -56,6 +56,10 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+html {
+  background: #000;
+}
+
 // Graft in parts of tufte.css
 // This may or may not stick, if it does, move it to its own file
 hr {
