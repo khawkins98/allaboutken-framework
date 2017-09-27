@@ -21,16 +21,16 @@ font-style: normal;
 // font-style: italic;
 // }
 
-// @font-face{
-// font-family: 'Fira Sans';
-// src: url("../fonts/Fira-master/eot/FiraSans-Regular.eot");
-// src: local("../fonts/Fira-master/Fira Sans Regular"),
-//      url("../fonts/Fira-master/eot/FiraSans-Regular.eot") format("embedded-opentype"),
-//      url("../fonts/Fira-master/woff/FiraSans-Regular.woff") format("woff"),
-//      url("../fonts/Fira-master/ttf/FiraSans-Regular.ttf") format("truetype");
-// font-weight: 400;
-// font-style: normal;
-// }
+@font-face{
+font-family: 'Fira Sans';
+src: url("../fonts/Fira-master/eot/FiraSans-Regular.eot");
+src: local("../fonts/Fira-master/Fira Sans Regular"),
+     url("../fonts/Fira-master/eot/FiraSans-Regular.eot") format("embedded-opentype"),
+     url("../fonts/Fira-master/woff/FiraSans-Regular.woff") format("woff"),
+     url("../fonts/Fira-master/ttf/FiraSans-Regular.ttf") format("truetype");
+font-weight: 400;
+font-style: normal;
+}
 
 // @font-face{
 // font-family: 'Fira Sans';
