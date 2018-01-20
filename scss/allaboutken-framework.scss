@@ -134,31 +134,14 @@ ul.no-bullet {
 
 
 figure {
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    // max-width: 55%;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    margin: 0 0 3em 0;
-}
-
-figcaption {
-    float: right;
-    clear: right;
-    margin-top: 0;
+  figcaption {
+    margin-top: .5rem;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: .9rem;
     line-height: 1.6;
-    vertical-align: baseline;
-    position: relative;
-    max-width: 40%;
-}
-
-figure.fullwidth figcaption {
-    margin-right: 24%;
+    color: #222;
+    text-align: center;
+  }
 }
 
 /* Links: replicate underline that clears descenders */
