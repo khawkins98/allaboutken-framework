@@ -18,7 +18,7 @@
 @include foundation-breadcrumbs;
 @include foundation-button-group;
 @include foundation-callout;
-// @include foundation-card;
+@include foundation-card;
 // @include foundation-close-button;
 // @include foundation-menu;
 // @include foundation-menu-icon;
@@ -263,15 +263,15 @@ label.margin-toggle:not(.sidenote-number) {
   }
 
   label {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   div.table-wrapper, table {
-      width: 85%;
+    width: 85%;
   }
 
   img {
-      width: 100%;
+    width: 100%;
   }
 }
 
