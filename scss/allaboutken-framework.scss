@@ -410,8 +410,9 @@ body.gradient {
 pre > code {
   display: block;
 }
-code {
-  font-size: .8rem;
+p > a > code,
+p > code {
+  font-size: .9rem;
 }
 
 .callout blockquote,
