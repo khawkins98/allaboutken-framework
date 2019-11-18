@@ -414,6 +414,9 @@ p > a > code,
 p > code {
   font-size: .9rem;
 }
+p + pre {
+  margin-bottom: 1rem;
+}
 
 .callout blockquote,
 .callout cite {
