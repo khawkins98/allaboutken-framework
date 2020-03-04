@@ -12,9 +12,8 @@ To develop, you'll need to:
 
 1. Clone this repo
 1. Open terminal and type
-  - `npm install`
-  - `bower install`
-  - `npm start`
+  - `yarn install`
+  - `yarn start`
 
 ## What happens
 
