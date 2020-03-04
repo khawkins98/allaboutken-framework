@@ -489,7 +489,7 @@ strong {
     font-size: .8rem;
   }
   .do-not-print {
-      display:none;
+    display:none;
   }
   .for-print-only {
     display:block
@@ -557,10 +557,6 @@ a.only-hover:hover {
   border-bottom: 1px solid #fefefe;
 }
 
-/* h1, h2 {
-  letter-spacing: -1px;
-} */
-
 h1.tight-leading,
 h2.tight-leading {
   line-height: 2rem;
@@ -582,7 +578,6 @@ strong {
   /* hide for now, we'll show this content later */
   display: none;
 }
-
 
 @media print {
   .grid-container,

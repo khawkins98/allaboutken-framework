@@ -82,7 +82,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: rgb(119,89,195);
 $body-font-color: $white;
-$body-font-family: ibm-plex-sans, 'Fira Sans', Arial, sans-serif;
+$body-font-family: ibm-plex-sans, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -107,11 +107,11 @@ $breakpoints: (
   small: 0,
   medium: 640px,
   large: 1200px,
-  xlarge: 1440px,
-  xxlarge: 1740px,
+  // xlarge: 1440px,
+  // xxlarge: 1740px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large xlarge);
+$breakpoint-classes: (small medium large);
 
 // 3. The Grid
 // -----------
@@ -132,7 +132,7 @@ $block-grid-max: 8;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-bold;
 $header-font-style: normal;
-$font-family-monospace: ibm-plex-code, 'Fira Code', Courier, monospace;
+$font-family-monospace: ibm-plex-code, Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
