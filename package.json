@@ -27,4 +27,5 @@
   "author": "Ken Hawkins",
   "license": "MIT",
   "private": true,
+  "dependencies": {}
 }

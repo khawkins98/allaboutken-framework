@@ -13,7 +13,7 @@ To develop, you'll need to:
 1. Clone this repo
 1. Open terminal and type
   - `yarn install`
-  - `yarn start`
+  - `gulp dev`
 
 ## What happens
 
