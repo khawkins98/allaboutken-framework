@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var $    = require('gulp-load-plugins')();
+var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
 
 var sassPaths = [
   'node_modules/normalize.scss/sass',
@@ -9,12 +10,12 @@ var sassPaths = [
 
 gulp.task('sass', function() {
   return gulp.src('scss/allaboutken-framework.scss')
-    .pipe($.sass({
+    .pipe(sass({
       includePaths: sassPaths,
       outputStyle: 'compressed' // if css compressed **file size**
     })
-      .on('error', $.sass.logError))
-    .pipe($.autoprefixer({}))
+    .on('error', sass.logError))
+    .pipe(prefix({}))
     .pipe(gulp.dest('css'));
 });
 
