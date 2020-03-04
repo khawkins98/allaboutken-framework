@@ -12,6 +12,12 @@
     "motion-ui": "^2.0.3",
     "node-sass": "^4.13.1"
   },
+  "browserslist": {
+    "production": [
+      "last 2 versions", 
+      "ie >= 11"
+    ]
+  },
   "scripts": {
     "start": "gulp",
     "build": "gulp"
