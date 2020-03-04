@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp sass"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
