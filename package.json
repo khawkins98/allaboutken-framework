@@ -1,0 +1,36 @@
+{
+  "name": "allaboutken-framework",
+  "version": "1.0.0",
+  "description": "Roll some CSS and JS for a site.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "foundation-sites": "^6.6.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "motion-ui": "^2.0.3",
+    "node-sass": "^4.13.1"
+  },
+  "browserslist": {
+    "production": [
+      "last 2 versions",
+      "ie >= 11"
+    ]
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khakwins98/allaboutken-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khakwins98/allaboutken-framework/issues",
+    "email": "khawkins98@gmail.com"
+  },
+  "author": "Ken Hawkins",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}

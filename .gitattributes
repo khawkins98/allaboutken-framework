@@ -1,0 +1,5 @@
+# Treat fonts as binary files
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
